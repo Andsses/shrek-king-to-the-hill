@@ -4,11 +4,6 @@ import sys
 import os
 import time
 
-
-global url
-
-
-
 def bloque1():
     while True:
 
