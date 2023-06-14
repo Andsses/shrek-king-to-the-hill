@@ -10,7 +10,7 @@ def bloque1():
         global archivo
         global url
 
-        url = "http://" + sys.argv[1] + "/"
+        url = "http://" + sys.argv[1] 
 
         r = requests.get(url + "/robots.txt")
 
